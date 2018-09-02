@@ -11,7 +11,7 @@ public class PotroshitelApplication {
 //        //SpringApplication.run(PotroshitelApplication.class, args);
 //        ClassPathXmlApplicationContext context =
 //            new ClassPathXmlApplicationContext("context");
-//        context.getBean(TerminatorQuater)
+//        context.getBean(quater.TerminatorQuater)
 //
 //
 //

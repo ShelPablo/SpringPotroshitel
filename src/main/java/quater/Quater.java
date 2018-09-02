@@ -1,4 +1,4 @@
-//package quaters;
+package quater;//package quaters;
 
 
 public interface Quater {

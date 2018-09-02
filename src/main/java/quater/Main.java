@@ -1,3 +1,5 @@
+package quater;
+
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {

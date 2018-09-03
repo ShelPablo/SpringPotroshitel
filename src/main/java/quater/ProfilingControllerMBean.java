@@ -1,5 +1,5 @@
 package quater;
 
-public interface ProfilingControllerMbean {
+public interface ProfilingControllerMBean {
     void setEnabled(boolean enabled);
 }

@@ -1,6 +1,6 @@
 package quater;
 
-public class ProfilingController implements ProfilingControllerMbean {
+public class ProfilingController implements ProfilingControllerMBean {
     private boolean enabled;
 
     public boolean isEnabled() {

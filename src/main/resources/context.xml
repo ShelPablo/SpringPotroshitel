@@ -9,6 +9,8 @@
     <context:annotation-config></context:annotation-config>
 
 
+    <bean class="quater.PostProxyInvokerListener"></bean>
+
     <bean class="quater.ProfilingHandlerBeanPostProcessor"></bean>
 
     <bean class="quater.InjectRandomIntAnnotationBeanPostProcessor"></bean>

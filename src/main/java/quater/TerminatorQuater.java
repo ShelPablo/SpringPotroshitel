@@ -25,8 +25,10 @@ public class TerminatorQuater implements Quater {
 
     private String message;
 
+    @PostProxy
     @Override
     public void sayQuate() {
+        System.out.println("Phase 3");
         for (int i = 0; i < repeat; i++)
             System.out.println(message);
     }

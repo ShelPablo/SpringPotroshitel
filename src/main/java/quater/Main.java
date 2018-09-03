@@ -9,11 +9,11 @@ public class Main {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("context.xml");
 
-        while (true) {
-            Thread.sleep(100);
-            context.getBean(TerminatorQuater.class).sayQuate(); // This is wrong! Look up for interface!
+        //while (true) {
+        //    Thread.sleep(100);
+        //    context.getBean(TerminatorQuater.class).sayQuate(); // This is wrong! Look up for interface!
             //context.getBean(Quater.class).sayQuate(); // This is wrong! Look up for interface!
-        }
+        //}
 
 
     }

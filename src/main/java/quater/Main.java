@@ -8,6 +8,7 @@ public class Main {
         //SpringApplication.run(PotroshitelApplication.class, args);
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("context.xml");
+        context.getBean(Quater.class).sayQuate();
 
         //while (true) {
         //    Thread.sleep(100);

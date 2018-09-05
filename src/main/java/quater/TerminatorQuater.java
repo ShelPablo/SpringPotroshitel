@@ -5,6 +5,7 @@ import quater.Quater;
 
 import javax.annotation.PostConstruct;
 
+@DeprecatedClass(newImpl = T1000.class)
 @Profiling
 public class TerminatorQuater implements Quater {
 

@@ -8,6 +8,7 @@
 
     <context:annotation-config></context:annotation-config>
 
+    <bean class="quater.DeprecationHandlerBeanFactoryPostProcessor"></bean>
 
     <bean class="quater.PostProxyInvokerListener"></bean>
 
